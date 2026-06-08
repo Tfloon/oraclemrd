@@ -1,0 +1,92 @@
+﻿{
+  "data": {
+    "agent-config": {
+      "are-all-plugins-disabled": false,
+      "is-management-disabled": false,
+      "is-monitoring-disabled": false,
+      "plugins-config": [
+        {
+          "desired-state": "ENABLED",
+          "name": "Compute Instance Monitoring"
+        }
+      ]
+    },
+    "availability-config": {
+      "is-live-migration-preferred": null,
+      "recovery-action": "RESTORE_INSTANCE"
+    },
+    "availability-domain": "Pjmv:PHX-AD-2",
+    "capacity-reservation-id": null,
+    "cluster-placement-group-id": null,
+    "compartment-id": "ocid1.tenancy.oc1..aaaaaaaa5f7bf7uu4pqlzpfezxx2b4gn4d5ntpcfpvgexohel6ypp5uf6z3q",
+    "dedicated-vm-host-id": null,
+    "defined-tags": {
+      "Oracle-Tags": {
+        "CreatedBy": "default/israleche@gmail.com",
+        "CreatedOn": "2026-04-10T08:07:01.241Z"
+      }
+    },
+    "display-name": "instance-20260410-0106",
+    "extended-metadata": {},
+    "fault-domain": "FAULT-DOMAIN-1",
+    "freeform-tags": {},
+    "id": "ocid1.instance.oc1.phx.anyhqljrnespdcacizkkqhuzoa6vje4zoqaobrefq2yxqxgntbmzo23o7wla",
+    "image-id": "ocid1.image.oc1.phx.aaaaaaaavfbkczxpy4zopkqswucpfx7tv7x5xyjvppsp4l5tjkwv5kctr3dq",
+    "instance-configuration-id": null,
+    "instance-options": {
+      "are-legacy-imds-endpoints-disabled": false
+    },
+    "ipxe-script": null,
+    "is-ai-enterprise-enabled": null,
+    "is-cross-numa-node": false,
+    "launch-mode": "PARAVIRTUALIZED",
+    "launch-options": {
+      "boot-volume-type": "PARAVIRTUALIZED",
+      "firmware": "UEFI_64",
+      "is-consistent-volume-naming-enabled": true,
+      "is-pv-encryption-in-transit-enabled": false,
+      "network-type": "PARAVIRTUALIZED",
+      "remote-data-volume-type": "PARAVIRTUALIZED"
+    },
+    "licensing-configs": null,
+    "lifecycle-state": "STOPPING",
+    "metadata": {
+      "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8Cn8OAp/jHISxcNt+Sj2sz6RIos62++2oye/EdgxKpR1SYVYyaMrsBSYhvlM2H1WjBuYUNJ+qOCNpH+xRJqq+JPZnFRZdyTl+Rr6S37a49kzLxA/eCKB3ijiy9UMrB0MTgjSIw/VhtgYwKkzkEDZiBycsk7zzjtf1uMfijrhccWL7gvh8kSj/f/mi5wlxUWLXULzeDjktR0QUpOQFuvvVpRIq2HYDxqVIJWUVi4wAEkKO7NvgOPp8fKyzwzNTqwMNymEuCjJNJyTHvT221pnxQDSnOyFQ6CBrt06FU5l1ukV+eUOW3k5a8eDZW7Yw1qGuoXeiG5cb0hlygMuRFkkd ssh-key-2026-03-30"
+    },
+    "placement-constraint-details": null,
+    "platform-config": null,
+    "preemptible-instance-config": null,
+    "region": "phx",
+    "security-attributes": {},
+    "security-attributes-state": "STABLE",
+    "shape": "VM.Standard.A1.Flex",
+    "shape-config": {
+      "baseline-ocpu-utilization": null,
+      "gpu-description": null,
+      "gpus": 0,
+      "local-disk-description": null,
+      "local-disks": 0,
+      "local-disks-total-size-in-gbs": null,
+      "max-vnic-attachments": 2,
+      "memory-in-gbs": 12.0,
+      "networking-bandwidth-in-gbps": 2.0,
+      "ocpus": 2.0,
+      "processor-description": "3.0 GHz Ampere® Altra™",
+      "resource-management": null,
+      "vcpus": 2
+    },
+    "source-details": {
+      "boot-volume-size-in-gbs": null,
+      "boot-volume-vpus-per-gb": null,
+      "image-id": "ocid1.image.oc1.phx.aaaaaaaavfbkczxpy4zopkqswucpfx7tv7x5xyjvppsp4l5tjkwv5kctr3dq",
+      "instance-source-image-filter-details": null,
+      "kms-key-id": null,
+      "source-type": "image"
+    },
+    "system-tags": {},
+    "time-created": "2026-04-10T08:07:01.638000+00:00",
+    "time-maintenance-reboot-due": null
+  },
+  "etag": "849a0134a0f054a5e063652db53b5e619712c811f65601a36261f899dd6a2eae",
+  "opc-work-request-id": "ocid1.coreservicesworkrequest.oc1.phx.abyhqljrv6gndpjpha4i27f6vd6tfzjq5k2dvv3cp5fbx7cmpmcmql5zxznq"
+}

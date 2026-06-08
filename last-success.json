@@ -1,0 +1,101 @@
+{
+    "createdAt": "2026-04-10T01:07:00-07:00",
+    "cycle": 1,
+    "attempt": 3,
+    "availabilityDomain": "Pjmv:PHX-AD-2",
+    "shape": "VM.Standard.A1.Flex",
+    "ocpus": 2,
+    "memoryInGBs": 12,
+    "details": {
+        "availabilityDomain": "Pjmv:PHX-AD-2",
+        "capacityReservationId": null,
+        "compartmentId": "ocid1.tenancy.oc1..aaaaaaaa5f7bf7uu4pqlzpfezxx2b4gn4d5ntpcfpvgexohel6ypp5uf6z3q",
+        "placementConstraintDetails": null,
+        "isAIEnterpriseEnabled": null,
+        "clusterPlacementGroupId": null,
+        "dedicatedVmHostId": null,
+        "definedTags": {
+            "Oracle-Tags": {
+                "CreatedBy": "default/israleche@gmail.com",
+                "CreatedOn": "2026-04-10T08:07:01.241Z"
+            }
+        },
+        "securityAttributes": [],
+        "securityAttributesState": "STABLE",
+        "displayName": "instance-20260410-0106",
+        "extendedMetadata": [],
+        "faultDomain": "FAULT-DOMAIN-1",
+        "freeformTags": [],
+        "id": "ocid1.instance.oc1.phx.anyhqljrnespdcacizkkqhuzoa6vje4zoqaobrefq2yxqxgntbmzo23o7wla",
+        "imageId": "ocid1.image.oc1.phx.aaaaaaaavfbkczxpy4zopkqswucpfx7tv7x5xyjvppsp4l5tjkwv5kctr3dq",
+        "ipxeScript": null,
+        "launchMode": "PARAVIRTUALIZED",
+        "launchOptions": {
+            "bootVolumeType": "PARAVIRTUALIZED",
+            "firmware": "UEFI_64",
+            "networkType": "PARAVIRTUALIZED",
+            "remoteDataVolumeType": "PARAVIRTUALIZED",
+            "isPvEncryptionInTransitEnabled": false,
+            "isEncryptionInTransitEnabled": null,
+            "isConsistentVolumeNamingEnabled": true
+        },
+        "instanceOptions": {
+            "areLegacyImdsEndpointsDisabled": false
+        },
+        "availabilityConfig": {
+            "isLiveMigrationPreferred": null,
+            "recoveryAction": "RESTORE_INSTANCE"
+        },
+        "preemptibleInstanceConfig": null,
+        "lifecycleState": "PROVISIONING",
+        "metadata": {
+            "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8Cn8OAp/jHISxcNt+Sj2sz6RIos62++2oye/EdgxKpR1SYVYyaMrsBSYhvlM2H1WjBuYUNJ+qOCNpH+xRJqq+JPZnFRZdyTl+Rr6S37a49kzLxA/eCKB3ijiy9UMrB0MTgjSIw/VhtgYwKkzkEDZiBycsk7zzjtf1uMfijrhccWL7gvh8kSj/f/mi5wlxUWLXULzeDjktR0QUpOQFuvvVpRIq2HYDxqVIJWUVi4wAEkKO7NvgOPp8fKyzwzNTqwMNymEuCjJNJyTHvT221pnxQDSnOyFQ6CBrt06FU5l1ukV+eUOW3k5a8eDZW7Yw1qGuoXeiG5cb0hlygMuRFkkd ssh-key-2026-03-30"
+        },
+        "region": "phx",
+        "shape": "VM.Standard.A1.Flex",
+        "shapeConfig": {
+            "ocpus": 2,
+            "memoryInGBs": 12,
+            "baselineOcpuUtilization": null,
+            "processorDescription": "3.0 GHz Ampere\u00ae Altra\u2122",
+            "networkingBandwidthInGbps": 2,
+            "maxVnicAttachments": 2,
+            "gpus": 0,
+            "gpuDescription": null,
+            "localDisks": 0,
+            "localDisksTotalSizeInGBs": null,
+            "localDiskDescription": null,
+            "vcpus": 2,
+            "resourceManagement": null,
+            "localVolumeSizeInGBs": null
+        },
+        "isCrossNumaNode": false,
+        "sourceDetails": {
+            "sourceType": "image",
+            "bootVolumeSizeInGBs": null,
+            "imageId": "ocid1.image.oc1.phx.aaaaaaaavfbkczxpy4zopkqswucpfx7tv7x5xyjvppsp4l5tjkwv5kctr3dq",
+            "kmsKeyId": null,
+            "bootVolumeVpusPerGB": null,
+            "instanceSourceImageFilterDetails": null
+        },
+        "systemTags": [],
+        "timeCreated": "2026-04-10T08:07:01.638Z",
+        "agentConfig": {
+            "isMonitoringDisabled": false,
+            "isManagementDisabled": false,
+            "areAllPluginsDisabled": false,
+            "pluginsConfig": [
+                {
+                    "name": "Compute Instance Monitoring",
+                    "desiredState": "ENABLED"
+                }
+            ]
+        },
+        "timeMaintenanceRebootDue": null,
+        "timeStopScheduled": null,
+        "preferredMaintenanceAction": null,
+        "platformConfig": null,
+        "instanceConfigurationId": null,
+        "licensingConfigs": null
+    }
+}
